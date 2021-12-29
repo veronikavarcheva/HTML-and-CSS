@@ -1,0 +1,69 @@
+Flexbox => CSS Flexbox Layout Module
+
+- Offers space distribution between items in an interface and powerful alignment capabilities 
+- Flexbox is a method for laying out items in rows or columns
+- Items flex to fill additional space and shrink to fit into smaller spaces
+
+
+Why flexbox is needed? => For a long time, the only reliable cross browser-compatible tools available 
+                          for creating CSS layouts were floats and positioning. These are fine and they
+                          work, but in some ways, they are also rather limiting and frustrating.
+                      
+Flex Container => expands items to fill available free space or shrinks them to prevent overflow;
+
+PROPERTIES FOR THE PARENT:
+1.DISPLAY:
+display: flex; => the element is turned into a flexbox container and its child elements will be turned 
+                  into flexbox items;
+
+display: inline-flex; => the element shares properties of both an inline and flexbox element:
+                        - inline => because the element behaves like simple text, and inserts itself 
+                          in a block of text;
+                        - flexbox => because its child element will be turned into flexbox items;  
+
+2.FLEX DIRECTION => defines how flexbox items are ordered within a flexbox container;
+flex-direction: row; => the flexbox  items are ordered the same way as the text direction, along the main axis;
+flex-direction: row-reverse; => the flexbox items are ordered the opposite way as the text direction, along the main axis;
+flex-direction: column; => the flexbox items are ordered the same way as the text direction, along the cross axis;
+flex-direction: column-reverse; => the flexbox items are ordered the opposite way as the text direction, along the cross axis;
+
+3.FLEX WRAP => defines if flexbox items appear on a single line or on multiple lines withinn a flexbox container;
+flex-wrap: nowrap; => the flexbox items will remain on a single line, no matter what, and will eventually overflow if needed;
+flex-wrap: wrap; => the flexbox items will be distributed among multiple lines if needed;
+flex-wrap: wrap-reverse; => the flexbox items will be distributed among multiple lines if needed, but any additional line will appear before the previous one;
+
+Flex Flow => flex-flow is a shorthand for the flex-direction and flex-wrap properties;
+(flex-flow: <flex-direction> || <flex-wrap>)
+flex-flow: row wrap;
+flex-flow: row nowrap; => default value
+
+4.JUSTIFY CONTENT => defines how flexbox/grid items are aligned according to the main axis, within a flexbox container;
+justify-content: flex-start; => the flexbox items are pushed towards the start of the container's main axis;
+justify-content: flex-end; => the flexbox items are pushed towards the end of the container's main axis;
+justify-content: center; => the flexbox items items are centered along the container's main axis;
+justify-content: space-between; => the remaining space is distributed between the flexbox items;
+justify-content: space-around; => the remaining space is distributed around the flexbox items: this adds space befonre the first item and after the last one;
+
+5.ALIGN ITEMS => defines how flexbox items are aligned according to the cross axis, within a line of a flexbox container;
+align-items: flex-start; => the flex-box items are aligned at the start of the cross axis;
+align-items: flex-end; => the flex-box items are aligned at the end of the cross axis;
+align-items: center; => the flexbox items are aligned at the center of the cross axis;
+align-items: baseline; => the flexbox items are aligned at the baseline of the cross axis;
+align-items: stretch; => the flexbox items will stretch across the whole cross axis;
+
+6.ALIGN CONTENT => defines how each line is aligned within a flexbox container;
+                 It only applies if flex-wrap: wrap is present, and if there are multiple 
+                 lines of flexbox items;
+align-content: stretch; =>  each line will strech to fill the remaining space;
+                            the remaining space will be distributed equally amongst the lines in the flexbox container;
+align-content: flex-start; => each line will only fill the space it needs; they will all move towards 
+                              the start of the flexbox container's cross axis;
+align-content: flex-end; => each line will only fill the space it needs; they will all move towards 
+                            the end of the flexbox container's cross axis;
+align-content: center; => each line will only fillthe space it needs; the will all move towards 
+                          the center of the flexbox container's cross axis;
+align-content: space-between; => each line will only fill the space it needs; the remaining space 
+                                will appear between the lines;
+align-content: space-around; => each line will only fill the space it needs; the remaining space
+                                will be distributed equally around the around the lines: before the 
+                                first line, between the two, and after the last one;

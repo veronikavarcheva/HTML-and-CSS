@@ -1,0 +1,102 @@
+p {
+    font-size: 12px;
+}
+
+/* само при принтиране  */
+@media print {
+    body {
+        background: red;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+/* това е точно за 550px */
+/* @media all and (width: 550px) {
+    body {
+        background: blue;
+    }
+} */
+
+/* за всички устройства до 550px; */
+/* @media all and (max-width: 550px) {
+    body {
+        background: blue;
+    }
+} */
+
+/* за всички устройства над 550px; */
+@media all and (min-width: 550px) {
+    body {
+        background: blue;
+    }
+}
+
+@media all and (orientation: landscape) {
+    p {
+        color: red;
+    }
+}
+
+@media all and (min-width: 700px) and (orientation: landscape){
+    body {
+        background: yellow;
+    }
+}
+
+/* Mobile first */
+
+/* mobile */
+body {
+    font-size: 12px;
+}
+
+
+/* tablet */
+@media all and (min-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* min desktop */
+@media all and (min-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* large desktop */
+@media all and (min-width: 1800px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+/* Desktop first */
+body {
+    font-size: 20px;
+}
+
+/* min desktop */
+@media all and (max-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* tablet */
+@media all and (max-width: 900px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* phone  */
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}

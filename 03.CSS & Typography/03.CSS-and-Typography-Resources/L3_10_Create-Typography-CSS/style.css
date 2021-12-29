@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+article {
+    border-left: 3px solid rgb(241, 241, 241);
+}
+
+blockquote {
+    font-style: italic;
+}
+
+tr.odd-row > td {
+    background: rgb(241, 241, 241);
+}
+
+table, td, th {
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+}
+
+tr:hover {
+    background: rgb(0, 	0, 0);
+    color: rgb(255, 255, 255);
+}
+
+blockquote p.author {
+    text-align: right;
+}

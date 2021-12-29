@@ -1,0 +1,18 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+    font-family: Helvetica, sans-serif;   
+}
+
+body {
+    padding: 100px;
+}
+
+li {
+    list-style: none;
+    line-height: 1.5;
+}
+
+ul {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 60%;
+    margin: 50px auto;
+}
+
+ul li img {    
+    border: 0.4rem solid black;
+    padding: 0.6rem;
+    margin: 0.3rem; 
+    vertical-align: middle;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li:nth-child(6) img, li:nth-child(12) img{
+    height: 481.97px;
+    width: 331.97px;
+}
+
+li.first, li.second, li.third, li.fourth {
+    display: inline-block;  
+    max-width: 1030px;
+}
+
+
+

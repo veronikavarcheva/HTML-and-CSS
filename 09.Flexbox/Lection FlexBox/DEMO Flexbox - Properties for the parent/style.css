@@ -1,0 +1,899 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+body {
+    font-family:'Helvetica', sans-serif;
+    font-size: 15px;
+}
+
+h3 {
+    text-align: center;   
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    background: green;
+}
+
+.first-child {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.second-child {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-two {
+    display: inline-flex;
+    height: 3em;
+    width: 120px;
+}
+
+.first-child-two {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.second-child-two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+p {
+    display: inline;
+}
+.container-three {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-three .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-three .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-three .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-three .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-four {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-four .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-four .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-four .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-four .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-five {
+    display: flex;
+    flex-direction: column;
+}
+.container-five .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-five .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-five .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-five .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-six {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container-six .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-six .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-six .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-six .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-seven {
+    width: 265px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-seven .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-seven .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-seven .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-seven .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-seven .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-seven .six {
+    background: purple;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eight {
+    width: 265px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.container-eight .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eight .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eight .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eight .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eight .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eight .six {
+    background: purple;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-nine {
+    width: 265px;
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-flow: row nowrap; */
+}
+.container-nine .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-nine .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-nine .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-nine .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-nine .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-nine .six {
+    background: purple;
+    margin: 0;
+    padding: 5px;
+}
+.container-ten {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-ten .one{
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-ten .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-ten .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eleven {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-eleven .one{
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eleven .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-eleven .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-twelve {
+    display: flex;
+    justify-content: center;
+}
+
+.container-twelve .one{
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-twelve .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-twelve .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-thirteen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-thirteen .one{
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-thirteen .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-thirteen .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-fourteen {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-fourteen .one{
+    background: green;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-fourteen .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-fourteen .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-fifteen {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-fifteen .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+    width: 50px;
+    height: 20px;
+}
+
+.container-fifteen .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 40px;
+    height: 80px;
+}
+
+.container-fifteen .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.container-fifteen .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-fifteen .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    width: 30px;
+    height: 120px;
+}
+
+.container-sixteen {
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-sixteen .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+    width: 50px;
+    height: 20px;
+}
+
+.container-sixteen .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 40px;
+    height: 80px;
+}
+
+.container-sixteen .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.container-sixteen .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-sixteen .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    width: 30px;
+    height: 120px;
+}
+
+.container-seventeen {
+    display: flex;
+    align-items: center;
+}
+
+.container-seventeen .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+    width: 50px;
+    height: 20px;
+}
+
+.container-seventeen .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 40px;
+    height: 80px;
+}
+
+.container-seventeen .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.container-seventeen .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-seventeen .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    width: 30px;
+    height: 120px;
+}
+
+.container-eighteen {
+    display: flex;
+    align-items: baseline;
+}
+
+.container-eighteen .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.container-eighteen .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 40px;
+    height: 80px;
+}
+
+.container-eighteen .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.container-eighteen .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.container-eighteen .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    width: 30px;
+    height: 120px;
+    font-size: 40px;
+}
+
+.container-nineteen {
+    display: flex;
+    align-items: stretch;
+}
+
+.container-nineteen .one {
+    background: green;
+    margin: 0;
+    padding: 5px;    
+}
+
+.container-nineteen .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;    
+}
+
+.container-nineteen .three {
+    background: red;
+    margin: 0;
+    padding: 5px;   
+}
+
+.container-nineteen .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+}
+
+.container-nineteen .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    height: 100px;    
+   }
+
+.container-twenty {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 350px;
+    height: 300px;
+}
+
+.container-twenty .one {
+    background: green;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px;   
+}
+
+.container-twenty .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 100px; 
+    height: 100px;     
+}
+
+.container-twenty .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px; 
+}
+
+.container-twenty .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;  
+}
+
+.container-twenty .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    width: 100px;      
+   }
+
+   .container-twenty-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 350px;
+    height: 300px;
+}
+
+.container-twenty-one .one {
+    background: green;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px;   
+}
+
+.container-twenty-one .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 100px; 
+    height: 100px;     
+}
+
+.container-twenty-one .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px; 
+}
+
+.container-twenty-one .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;  
+}
+
+.container-twenty-one .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    width: 100px;      
+}
+
+.container-twenty-two {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: 350px;
+    height: 300px;
+}
+
+.container-twenty-two .one {
+    background: green;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px;   
+}
+
+.container-twenty-two .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 100px; 
+    height: 100px;     
+}
+
+.container-twenty-two .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px; 
+}
+
+.container-twenty-two .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;  
+}
+
+.container-twenty-two .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    width: 100px;      
+}
+
+.container-twenty-three {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 350px;
+    height: 300px;
+}
+
+.container-twenty-three .one {
+    background: green;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px;   
+}
+
+.container-twenty-three .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 100px; 
+    height: 100px;     
+}
+
+.container-twenty-three .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px; 
+}
+
+.container-twenty-three .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;  
+}
+
+.container-twenty-three .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    width: 100px;      
+}
+
+.container-twenty-four {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 350px;
+    height: 300px;
+}
+
+.container-twenty-four .one {
+    background: green;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px;   
+}
+
+.container-twenty-four .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 100px; 
+    height: 100px;     
+}
+
+.container-twenty-four .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px; 
+}
+
+.container-twenty-four .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;  
+}
+
+.container-twenty-four .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    width: 100px;      
+}
+
+.container-twenty-five {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 350px;
+    height: 300px;
+}
+
+.container-twenty-five .one {
+    background: green;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px;   
+}
+
+.container-twenty-five .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    width: 100px; 
+    height: 100px;     
+}
+
+.container-twenty-five .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    width: 100px;
+    height: 50px; 
+}
+
+.container-twenty-five .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 50px;  
+}
+
+.container-twenty-five .five {
+    background: orange;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    width: 100px;      
+}

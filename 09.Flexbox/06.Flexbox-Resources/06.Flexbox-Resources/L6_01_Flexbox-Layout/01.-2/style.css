@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #EEEEEE; 
+    margin: 50px;
+}
+
+.main-aside-container {
+    display: flex;
+    flex-direction: row;
+}
+
+header, main, aside, footer {
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 20px;
+    margin: 10px;    
+}
+
+header, footer {
+    flex: 1 0 300px;
+}
+
+header {
+    height: 200px;
+}
+
+footer {
+    height: 150px;
+}
+main {
+    flex: 0 0 60%;
+    height: 500px;
+}
+aside {
+    flex: 1 1 auto;
+    height: 500px;
+}
+
+aside {
+    flex: 1 0 auto;
+}

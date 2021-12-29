@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 0 11px 11px lightgray;
+}
+
+section .card-wrapper {
+    padding: 20px 20px 50px 20px;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 1em/1.2 Georgia, serif;
+    font-weight: bold;
+}
+
+section div img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+
+section div button {
+    background: rgb(0, 153, 0);
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+@media all and (max-width: 400px) {
+
+    section {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    section div.image-wrapper {
+        display: flex;
+        justify-content: center;        
+    }
+
+    section.div.image-wrapper img {
+        flex-grow: 100%;
+       object-fit: cover;       
+    }
+}
+
+

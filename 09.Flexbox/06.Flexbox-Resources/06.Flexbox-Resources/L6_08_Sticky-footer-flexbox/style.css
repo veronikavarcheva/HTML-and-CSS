@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    line-height: 1.5;
+    max-width: 1250px;
+    margin: 50px auto;
+}
+
+ body footer {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    padding: 10px 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+body header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+
+body main {
+    padding: 20px 10px;
+}

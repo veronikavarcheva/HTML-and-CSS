@@ -1,0 +1,38 @@
+@media all and (max-width: 600px) {
+   
+    body > nav {
+        display: flex;
+        flex-direction: column;       
+    }
+
+
+    body > nav > article.navigation-list-items > ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    body > nav > article.navigation-list-items > ul > li {
+        width: 100%;
+        align-self: center;
+        margin: 1px;
+    }
+
+    body > header > article.header-img-wrapper {
+        display: none;
+    }
+
+    body > main > section.benefits {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body > main > section.info-section {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+   
+}

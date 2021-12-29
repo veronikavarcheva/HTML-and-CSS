@@ -1,0 +1,26 @@
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+.click-me {
+    background:rgb(0, 128, 0);
+    /* или background: #008000; */
+}
+
+.email-me {
+    background: rgb(255, 140, 0);
+}
+
+.button {
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+
+.button i {
+    color: white;
+}
+
+p {
+    margin: 50px;
+}

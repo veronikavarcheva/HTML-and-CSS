@@ -1,0 +1,394 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+.container {
+    display: flex;
+}
+
+.container .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+.container .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+.container .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+.container .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+
+.container-one {
+    display: flex;
+}
+
+.container-one .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+.container-one .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+.container-one .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+    order: 1;
+}
+.container-one .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+
+.container-two {
+    display: flex;
+}
+
+.container-two .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+.container-two .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+.container-two .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+    order: -1;
+}
+.container-two .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    order: 0;
+}
+
+.container-three {
+    display: flex;
+}
+
+.container-three .one {
+    background: green;
+    margin: 0;
+    padding: 5px;
+    order: 13;
+}
+.container-three .two {
+    background: blue;
+    margin: 0;
+    padding: 5px;
+    order: -7;
+}
+.container-three .three {
+    background: red;
+    margin: 0;
+    padding: 5px;
+    order: 9;
+}
+.container-three .four {
+    background: yellow;
+    margin: 0;
+    padding: 5px;
+    order: 5;
+}
+
+.container-four {
+    display: flex;
+    width: 500px;
+}
+
+.container-four .one {
+    background: green;
+    margin: 0;
+    padding: 5px;     
+    flex-grow: 0;
+}
+.container-four .two {
+    background: blue;
+    margin: 0;   
+    padding: 5px; 
+    flex-grow: 0; 
+}
+.container-four .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    flex-grow: 0;   
+}
+.container-four .four {
+    background: yellow;
+    margin: 0;   
+    padding: 5px; 
+    flex-grow: 0;  
+}
+
+.container-five {
+    display: flex;
+    width: 500px;
+}
+
+.container-five .one {
+    background: green;
+    margin: 0;
+    padding: 5px;     
+    flex-grow: 1;
+}
+.container-five .two {
+    background: blue;
+    margin: 0;   
+    padding: 5px; 
+    flex-grow: 0; 
+}
+.container-five .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    flex-grow: 0;   
+}
+.container-five .four {
+    background: yellow;
+    margin: 0;   
+    padding: 5px; 
+    flex-grow: 0;  
+}
+
+.container-six {
+    display: flex;
+    width: 500px;
+}
+
+.container-six .one {
+    background: green;
+    margin: 0;
+    padding: 5px;     
+    flex-shrink: 1;
+}
+.container-six .two {
+    background: blue;
+    margin: 0;   
+    padding: 5px; 
+    flex-shrink: 1; 
+}
+.container-six .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    flex-shrink: 1;  
+}
+.container-six .four {
+    background: yellow;
+    margin: 0;   
+    padding: 5px; 
+    flex-shrink: 1;
+}
+
+.container-seven {
+    display: flex;
+    width: 500px;
+}
+
+.container-seven .one {
+    background: green;
+    margin: 0;
+    padding: 5px;     
+    flex-shrink: 0;
+}
+.container-seven .two {
+    background: blue;
+    margin: 0;   
+    padding: 5px; 
+    flex-shrink: 1; 
+}
+.container-seven .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    flex-shrink: 1;  
+}
+.container-seven .four {
+    background: yellow;
+    margin: 0;   
+    padding: 5px; 
+    flex-shrink: 1;
+}
+
+.container-eight {
+    display: flex;
+    width: 500px;
+}
+
+.container-eight .one {
+    background: green;
+    margin: 0;
+    padding: 5px;     
+    flex-basis: auto;
+}
+.container-eight .two {
+    background: blue;
+    margin: 0;   
+    padding: 5px; 
+    /* flex-shrink: 1;  */
+}
+.container-eight .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    /* flex-shrink: 1;   */
+}
+.container-eight .four {
+    background: yellow;
+    margin: 0;   
+    padding: 5px; 
+    /* flex-shrink: 1; */
+}
+
+.container-nine {
+    display: flex;
+    width: 500px;
+}
+
+.container-nine .one {
+    background: green;
+    margin: 0;
+    padding: 5px;     
+    flex-basis: 50px;
+}
+.container-nine .two {
+    background: blue;
+    margin: 0;   
+    padding: 5px; 
+    /* flex-shrink: 1;  */
+}
+.container-nine .three {
+    background: red;
+    margin: 0;
+    padding: 5px; 
+    /* flex-shrink: 1;   */
+}
+.container-nine .four {
+    background: yellow;
+    margin: 0;   
+    padding: 5px; 
+    /* flex-shrink: 1; */
+}
+
+.container-ten {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.container-ten .one, 
+.container-ten .three, 
+.container-ten .four,
+.container-ten .five {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.container-ten .four {
+    height: 100px;
+}
+
+.container-ten .two {
+    background: green;
+    margin: 0;
+    padding: 5px;  
+    align-self: auto;
+}
+
+.container-eleven {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.container-eleven .one, 
+.container-eleven .three, 
+.container-eleven .four,
+.container-eleven .five {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 5px;   
+}
+
+.container-eleven .two {
+    background: green;
+    margin: 0;
+    padding: 5px;  
+    align-self: flex-start;
+}
+
+.container-twelve {
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+}
+
+.container-twelve .one, 
+.container-twelve .three, 
+.container-twelve .four,
+.container-twelve .five {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 5px;   
+}
+
+.container-twelve .two {
+    background: green;
+    margin: 0;
+    padding: 5px;  
+    align-self: center;
+}
+
+.container-thirteen {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.container-thirteen .one, 
+.container-thirteen .three, 
+.container-thirteen .four,
+.container-thirteen .five {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 5px;   
+}
+
+.container-thirteen .two {
+    background: green;
+    margin: 0;
+    padding: 5px;  
+    align-self: stretch;
+}

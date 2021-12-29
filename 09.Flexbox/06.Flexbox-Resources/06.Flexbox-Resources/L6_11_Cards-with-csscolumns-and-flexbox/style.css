@@ -1,0 +1,42 @@
+body {
+    background: rgb(238, 238, 238);
+    display: flex;
+    max-width: 1400px;
+    margin: 50px auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div.cards-layout {
+    display: flex;
+    max-height: 1960px;    
+}
+
+div.cards-layout article {
+    max-width: 400px;
+    margin: 10px;
+    background-color: white;   
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+}
+
+div.cards-layout article h5, 
+div.cards-layout article p {
+    padding: 10px;
+}
+
+div.cards-layout article img {
+    width: 100%;
+    object-fit: cover;    
+}
+
+div.cards-layout.masonry {
+    flex-direction: column;
+    flex-wrap: wrap;   
+}
+
+div.cards-layout.flex {
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+

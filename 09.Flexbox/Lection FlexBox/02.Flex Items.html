@@ -1,0 +1,37 @@
+Flex Items => Expands items to fill available free space or shrinks them to prevent overflow;
+
+PROPERTIES FOR THE CHILDREN:
+1.ORDER => defines the order of a flexbox item;
+
+order: 0; => the order of the flexbox items is the one defined in the HTML code;
+The order is relative to the flexbox item's siblings;
+order: 1; => the final order is defined when all individual flexbox item order values are considered;
+order: -1; => you can use negative values;
+order: 9; => you can set a different value for each flexbox item;
+
+2.FLEX GROW => the element will grow by a factor of 1; it will fill up the remaining space if no other 
+             flexbox item has a flex-grow value;
+flex-grow: 1;
+
+3.FLEX SHRINK => defines how much a flexbox item should shrink if there's NOT enough space available;
+flex-shrink: 1; => if there's NOT enough space available in the container's main axis, the element will 
+                   shrink by a factor of 1, and will wrap its content;
+flex-shrink: 0; => the element will NOT shrink it will retain the width it needs, and NOT wrap its content;
+                   Its siblings will shrink to give space to the target element; Because the target element 
+                   will NOT wrap its content, there is a chance for the flexbox container's content to overflow;
+
+4.FLEX BASIS => defines the initail size of a flexbox item; 
+flex-basis: auto; => the element will be automatically sized based on its content, or on any height or width
+                     value if they are defined;
+flex-basis: 80px; => the element will wrap its content to avoid any overflow; you can define pixel or (r)em values;
+
+FLEX => is the shorthand for flex-grow, flex-shrink, flex-basis; the default value is 0 1 auto;
+.item {
+    flex: <flex-grow> <flex-shrink> <flex-basis>;
+}
+
+5.ALIGN SELF => works like align-items, but applies only to a single flexbox item, instead of all of them;
+align-self: auto; => the target item will use the value of align-items;
+align-self: flex-start; => the container has align-items: center and the target element is pushed towards the start of the container's main axis;
+align-self: center; => the container has align-items: flex-start and  the target has align-self: center;
+align-self: stretch; => the container has align-items: center and the target has align-self: stretch;

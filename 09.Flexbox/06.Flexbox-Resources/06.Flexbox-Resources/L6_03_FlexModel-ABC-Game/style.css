@@ -1,0 +1,97 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 15px 35px;
+    margin: 15px;
+}
+
+/* div.container .one {
+    order: 9;
+}
+div.container .two {
+    order: 2;
+}
+div.container .three {
+    order: 10;
+}
+div.container .four {
+    order: 4;
+}
+div.container .five {
+    order: 8;
+}
+div.container .six {
+    order: 7;
+}
+div.container .seven {
+    order: 11;
+}
+div.container .eight {
+    order: 5;
+}
+div.container .nine {
+    order: 6;
+}
+div.container .ten {
+    order: 12;
+}
+div.container .eleven {
+    order: 1;
+}
+div.container .twelve {
+    order: 3;
+} */
+
+span:nth-child(1) {
+    order: 9;
+}
+span:nth-child(2) {
+    order: 2;
+}
+span:nth-child(3) {
+    order: 10;
+}
+span:nth-child(4) {
+    order: 4;
+}
+span:nth-child(5) {
+    order: 8;
+}
+span:nth-child(6) {
+    order: 7;
+}
+span:nth-child(7) {
+    order: 11;
+}
+span:nth-child(8) {
+    order: 5;
+}
+span:nth-child(9) {
+    order: 6;
+}
+span:nth-child(10) {
+    order: 12;
+}
+span:nth-child(11) {
+    order: 1;
+}
+span:nth-child(12) {
+    order: 3;
+}

@@ -1,0 +1,37 @@
+body {
+    background: rgb(238, 238, 238);
+    display: flex; 
+    height: 100vh;
+    align-items: center;   
+}
+
+section.container {  
+    display: flex;  
+    max-width: 60vw;
+    margin: 0 auto;  
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li:nth-child(2) {
+    flex-basis: 75%;
+}
+
+li {
+    flex-basis: 25%;
+    list-style-type: none;
+    margin: 10px;
+   
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 39px -12px rgba(0,0,0,0.75);	
+}
+

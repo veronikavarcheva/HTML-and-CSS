@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+body {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-wrapper {    
+    margin: 0 auto;
+    background: rgb(65, 190, 173);
+}
+
+.logo-softuni-kids-wrapper {
+    max-width: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-softuni-kids-wrapper img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px 12px;
+   
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #FFF;
+    font-weight: bold;  
+    font-size: 14px;
+}
+
+.lecturers {
+    background: rgb(255, 180, 2);  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.lecturers-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    max-width: 650px;
+    padding: 30px;
+    
+}
+
+.lecturers h2, .lecturers p {
+    color: #FFF;
+    align-self: center ;
+    text-align: center;
+}
+
+.lecturers p {
+    margin-top: 0;
+}
+
+.grand-lecturers-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.grand-lecturer-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 550px;
+}
+
+article.grand-lecturer-details.one {
+ justify-content: space-between;
+}
+
+article.grand-lecturer-details.two {
+    justify-content: space-between;
+   }
+
+.image-wrappper-grand-lecturers {
+    max-width: 300px;
+   
+}
+
+.image-wrappper-grand-lecturers img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;   
+    border: 5px solid rgb(65, 190, 173);
+}
+
+
+.grand-lecturer-text h4 {
+    color:  rgb(65, 190, 173);
+    margin: 0;
+}
+
+.grand-lecturer-text p.subtitle {
+    font-size: 13px;
+    color: gray;
+}
+
+.grand-lecturer-text {
+    padding: 10px;
+}
+
+.lecturers-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 5px;
+}
+
+.lecturer-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrappper-lecturers {
+    max-width: 300px;
+   
+}
+
+    .image-wrappper-lecturers img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        align-self: center;   
+        border: 5px solid rgb(65, 190, 173);
+    }
+
+.lecturer-text {
+    text-align: center;
+}
+
+.lecturer-text p.subtitle {
+    font-size: 13px;
+    color: gray;
+}
+
+.lecturer-text h4 {
+    color:  rgb(65, 190, 173); 
+}
+
+.career {
+    background: rgb(102, 185, 248);
+    height: 300px;
+    border-top: 7px solid rgba(255, 255, 255, 0.5);
+   
+}
+
+.title, .subtitle, .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.subtitle {
+    max-width: 700px;
+    margin: 5px auto;
+    align-self: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.form input {
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: #FFF;
+    margin: 10px;
+}
+
+.form button {
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    background: rgb(255, 145, 0);
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+
+footer {
+    display: flex;
+    background: rgb(86, 86, 86);
+    border-top: 7px solid rgba(255, 255, 255, 0.5);
+    height: 150px;
+    color: #FFF;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    margin: 5px auto;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.wrapper a i {
+    color: #FFF;
+    
+   
+}

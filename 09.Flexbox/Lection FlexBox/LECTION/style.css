@@ -1,0 +1,14 @@
+section {
+    display: flex;
+}
+
+article {
+    padding: 20px;
+    box-shadow: 0px 0px 3px black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+article:nth-child(1) p {
+    display: inline-flex;
+}

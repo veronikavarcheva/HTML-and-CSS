@@ -1,0 +1,20 @@
+Logical Operators => Media Queries Conditions
+The logical operators not/and/only can be used to compose a complex media query:
+1. not - negate a media query;
+
+@media not all and (orientation: landscape) {
+      body {
+         color: blue;
+      }
+} 
+
+2. and - combining multiple media features;
+
+@media screen and (min-width: 400px) and (orientation: landscape) {
+      body {
+        color: blue;
+      }
+}
+
+3. only - used to apply a style only if an entire query matches;
+4. , (comma) - commas are used to combine multiple media queries into a single rule;

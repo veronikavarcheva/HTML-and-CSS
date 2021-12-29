@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+   border-bottom:  2px solid #000;;
+    padding: 0;
+    width: 100%;
+  
+}
+
+.toggle-menu {
+    display: none;
+    text-align: center;
+}
+
+.toggle-menu::before {
+    content: 'X';
+}
+
+.toggle-menu-checkbox {
+    display: none;    
+}
+
+nav ul.nav-title {
+    display: flex;
+    border-radius: 5px;
+    background: white;  
+    padding-left: 0;
+}
+
+nav ul.nav-title li  {
+    list-style-type: none;
+    margin: 10px;   
+    background: rgb(45, 45, 45);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+nav ul.nav-title li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media all and (max-width: 900px) {
+    /* за проверка дали работи media query-то */
+    /* body {
+        background: red;
+    } */
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        border-bottom: none;
+    }
+
+    ul.nav-title {      
+        flex-direction: column;
+        border-top: 1px solid rgb(45, 45, 45);
+        border-bottom: 1px solid rgb(45, 45, 45);
+        border-radius: unset;
+    }
+
+    .toggle-menu {
+        display: block;
+    }
+
+    .toggle-menu-checkbox {
+        display: none;
+    }
+}
+
+@media all and (max-width: 599px) {
+    header {
+        text-align: center;
+    }
+}

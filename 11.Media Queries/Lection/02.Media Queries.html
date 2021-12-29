@@ -1,0 +1,27 @@
+Media Queries => 
+1. Media Queries are a feature of CSS that enable webpage content to adapt to different 
+screen sizes and resolutions;
+2. They are a fundamental part of responsive web design and are used to customize 
+the appearance of websites for multiple devices;
+
+MEDIA QUERY SYNTAX/ СИНТАКСИС:
+@media not|only mediatype  and (media-feature-rule) {CSS rules goes here}
+
+- A media query consists of a media type and can contain one or more expressions, 
+which resolve to either TRUE or FALSE.
+- The result of the query is true if the specified media type matches the type of 
+the device the document is being displayed on.
+- Unless you use the NOT or ONLY operators, the media type is optional, and the all type will be implied.
+- A MEDIA TYPE, which tells the browser what kind of media this code is for (e.g. print, or screen);
+- A MEDIA FEATURE RULE - test that must be passed for the contained CSS to be applied;
+- A set of CSS RULES that will be applied if the test passes and the media type is correct;
+
+Стандартиния размер на телефоните е макс до 600px (true или false)
+
+MEDIA QUERIES:
+Media queries in CSS look at the capability of the device;
+Media queries can be used to check many things, such as:
+- width and height of the viewport;
+- width and height of the device;
+- orientation ( is the tablet/phone in landscape or portrait mode);
+- resolution;

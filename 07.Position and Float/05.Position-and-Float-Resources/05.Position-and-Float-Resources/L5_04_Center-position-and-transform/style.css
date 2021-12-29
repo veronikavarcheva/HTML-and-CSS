@@ -1,0 +1,58 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: rgb(238, 238, 238);
+
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+div.div-card {
+    display: inline-block;
+    width: 328px;
+    height: 170px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    padding: 10px; 
+}
+div.div-card p {
+    margin: 10px;
+}
+
+div.div-card button {
+    background: rgb(0, 153, 0);
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+header h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+section.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 5px 44px -1px rgba(0,0,0,0.75);
+}
+
+div.img {
+    position: relative;
+
+}
+
+div img {
+    position: absolute;
+    top: -185px;
+    right: 0px;
+    width: 100%;
+    vertical-align: middle;
+}

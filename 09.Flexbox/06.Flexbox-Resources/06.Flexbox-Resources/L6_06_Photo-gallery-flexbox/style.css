@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 70%;
+    margin: 50px auto;
+    background: rgb(238, 238, 238);
+}
+
+body, ul, li {
+    display: flex;
+    font-family: Georgia, serif;
+    font-size: 1em;
+    flex-wrap: wrap;
+}
+
+.gallery ul li  {    
+    border: 0.4rem solid black;
+    padding: 0.6rem;
+    margin: 0.4rem;    
+}
+
+.gallery ul li {
+    list-style-type: none;
+}
+
+.gallery ul {
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+li img {    
+    align-self: center;
+    padding: 10px 5px;
+}
+

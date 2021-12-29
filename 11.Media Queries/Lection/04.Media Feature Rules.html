@@ -1,0 +1,37 @@
+@media and|not|only (media feature)
+- height
+- width
+- max-height / min-height
+- max-width / min-width
+
+
+MEDIA FEATURE RULES => Rule used in media queries to apply different styles 
+                       for different media types/ devices;
+
+After specifying the type, you can then target a media feature with a rule:
+
+- width and height => we can apply CSS if the viewport is above or below a certain width, using width:
+
+
+@media screen and (width: 600px) {
+    body {
+        color: red;
+    }
+}
+
+-  max-width / min-width => we can apply CSS if the viewport is under or above an exact width:
+
+@media screen and (max-width: 400px) {
+    body {
+        color: blue;
+    }
+}
+
+- Orientation => allows to test for portrait or landscape mode;
+To change the body text color if the device is in landscape orientation:
+
+@media (orientation: landscape) {
+    body {
+        color: red;
+    }
+}
